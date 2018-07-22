@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ContactManagementUI", "..\..\..\..\..\..\Seb\Projects\ContactManagementUI\", "{7585114F-9B72-433B-9E59-9793DAEBEFC8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{65b7e61a-93c6-469f-a4c6-57742dfa9773}|ContactManagement.Web.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57357"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Seb\Projects\ContactManagementUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57357\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57357"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Seb\Projects\ContactManagementUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57357\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57357"
+		SlnRelativePath = "..\..\..\..\..\..\Seb\Projects\ContactManagementUI\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Web", "ContactManagement.Web\ContactManagement.Web.csproj", "{65B7E61A-93C6-469F-A4C6-57742DFA9773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.Data", "ContactManagement.Data\ContactManagement.Data.csproj", "{F1FA2657-633D-4E16-A3A4-F5E3F5FCEACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7585114F-9B72-433B-9E59-9793DAEBEFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7585114F-9B72-433B-9E59-9793DAEBEFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7585114F-9B72-433B-9E59-9793DAEBEFC8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7585114F-9B72-433B-9E59-9793DAEBEFC8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{65B7E61A-93C6-469F-A4C6-57742DFA9773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B7E61A-93C6-469F-A4C6-57742DFA9773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B7E61A-93C6-469F-A4C6-57742DFA9773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B7E61A-93C6-469F-A4C6-57742DFA9773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FA2657-633D-4E16-A3A4-F5E3F5FCEACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FA2657-633D-4E16-A3A4-F5E3F5FCEACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FA2657-633D-4E16-A3A4-F5E3F5FCEACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FA2657-633D-4E16-A3A4-F5E3F5FCEACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
